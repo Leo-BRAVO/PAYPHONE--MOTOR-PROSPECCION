@@ -1,0 +1,17 @@
+# Datos crudos de la SuperCias: no se versionan (pesan cientos de MB)
+bi_ranking.csv
+bi_compania.csv
+bi_ciiu.csv
+
+# Universo de prospectos: lista comercial de la empresa, no va a GitHub
+universo_2025.csv
+universo_*.csv
+
+# Cualquier CSV que caiga en la carpeta de trabajo
+*.csv
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
