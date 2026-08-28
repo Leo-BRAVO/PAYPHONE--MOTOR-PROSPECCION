@@ -3,12 +3,13 @@ bi_ranking.csv
 bi_compania.csv
 bi_ciiu.csv
 
-# Universo de prospectos: lista comercial de la empresa, no va a GitHub
-universo_2025.csv
-universo_*.csv
-
-# Cualquier CSV que caiga en la carpeta de trabajo
+# Cualquier otro CSV que caiga en la carpeta de trabajo
 *.csv
+
+# Excepcion: universo_2025.csv SI se versiona, autorizado expresamente por el
+# dueno del repositorio (privado, 0 forks, un solo colaborador).
+# La negacion va despues de *.csv: en git gana el ultimo patron que coincide.
+!universo_2025.csv
 
 # Python
 __pycache__/
